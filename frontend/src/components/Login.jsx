@@ -18,7 +18,7 @@ const Login = ({setUser}) => {
             setUser(data);
             navigate('/');
         } catch (error) {
-            setError(error.reponse?.data?.message || "Server error")
+            setError(error.response?.data?.message || "Server error")
         }
     }
 
