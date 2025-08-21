@@ -23,6 +23,9 @@ This Notes App provides a complete end-to-end experience for managing personal n
 
 5. **Deployment**  
    - Fully deployed on **Render**, making it live and accessible from anywhere.
+     
+6. **Deployment link**
+   -  (https://mern-notes-app-cfv8.onrender.com/)   
 
     **Login Page**
    - <img width="1908" height="750" alt="image" src="https://github.com/user-attachments/assets/8e21f11e-4ca0-43f6-a1f9-79b8b21878c7" />
