@@ -68,7 +68,7 @@ const NoteModel = ({isOpen, onClose, note, onSave}) => {
 
             <div className='flex space-x-2'>
                 <button type='submit' className='bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700'>{note ? "Update" : "Create"}</button>
-                 <button type='button' className='bg-red-600 text-white px-4 py-2 rounded-md hover:bg-red-700'>Cancel</button>
+                 <button type='button' onClick={onClose} className='bg-red-600 text-white px-4 py-2 rounded-md hover:bg-red-700'>Cancel</button>
             </div>
          </form>
         </div>
